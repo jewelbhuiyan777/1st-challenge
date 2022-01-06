@@ -9,16 +9,23 @@ body{
 .left{
     
     font-size: 25px;
+    
    
 }
 .border{
-    border-left: 3px solid  rgb(255, 127, 176); 
+    border-left: 3px solid  rgb(255, 127, 176);
+    border-width: 4px;
+    border-radius: 5px;
+    
 
 }
 .parent{
     display: flex; 
     width: 80%;
     margin: auto;
+}
+.margin{
+    margin-right: 200px;
 }
 .photo img{
     width: 300px;
@@ -34,4 +41,45 @@ body{
 }
 .pragraph-add{
     margin-top: 50px;
+}
+
+.center{
+   text-align: center; 
+   margin-top: 50px;
+}
+.Mission{
+    width: 300px;
+     border: 3px solid rgb(230, 230, 210);
+     box-shadow: 5px 5px 15px tan;
+     border-radius: 10px;
+     background-color: wheat;
+     
+    
+     
+}
+.img img{
+    width: 50%;
+}
+.vission{
+    width: 300px;
+     border: 3px solid rgb(230, 230, 210);
+     box-shadow: 5px 5px 15px tan;
+     border-radius: 10px;
+     background-color: tan;
+}
+.goals{
+    width: 300px;
+    border: 3px solid rgb(230, 230, 210);
+    box-shadow: 5px 5px 15px tan;
+    border-radius: 10px;
+    background-color: thistle; 
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.half-width{
+    margin-left: 20px;
+    margin-right: 20px;
 }
