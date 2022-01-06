@@ -8,7 +8,7 @@ body{
 }
 .left{
     
-    font-size: 25px;
+    font-size: 30px;
     
    
 }
@@ -27,8 +27,13 @@ body{
 .margin{
     margin-right: 200px;
 }
+
+.mr-top{
+    margin-top: 50px;
+}
 .photo img{
-    width: 300px;
+    width: 400px;
+    
 }
 .click-btn{
     padding: 15px 40px;
@@ -46,33 +51,47 @@ body{
 .center{
    text-align: center; 
    margin-top: 50px;
+   color: peru;
+   
 }
+.hobe-ai-ber{
+    text-align: center;
+}
+.big{
+    font-size: 25px;
+}
+
 .Mission{
-    width: 300px;
+    width: 500px;
+    height: 500px;
      border: 3px solid rgb(230, 230, 210);
      box-shadow: 5px 5px 15px tan;
-     border-radius: 10px;
+     border-radius: 30px;
      background-color: wheat;
+     margin-left: 150px;
      
     
      
 }
 .img img{
-    width: 50%;
+    width: 40%;
 }
 .vission{
-    width: 300px;
+    width: 500px;
+    height: 500px;
      border: 3px solid rgb(230, 230, 210);
      box-shadow: 5px 5px 15px tan;
-     border-radius: 10px;
+     border-radius: 30px;
      background-color: tan;
 }
 .goals{
-    width: 300px;
+    width: 500px;
+    height: 500px;
     border: 3px solid rgb(230, 230, 210);
     box-shadow: 5px 5px 15px tan;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: thistle; 
+    margin-right: 100px;
 }
 .total{
     display: flex;
@@ -80,6 +99,19 @@ body{
     
 }
 .half-width{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.third-section{
+    display: flex;
+    width: 80%; 
+    margin-top: 80px;
+}
+.image-set img{
+width: 60%;
+margin-left: 160px;
+}
+.font-big{
+    font-size: 30px;
 }
